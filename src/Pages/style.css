@@ -1,0 +1,110 @@
+.navbar--content {
+    font-size: 20px;
+    font-weight: bold;
+    color: #57459d; /* Default color */
+    text-decoration: underline;
+  }
+  
+  .navbar--active-content {
+    color: #8855a6; /* Active color (e.g., red) */
+    text-decoration: none; /* Optional: Remove underline for active state */
+  }
+  
+/* General Button Styling */
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none; /* Remove underline for links */
+    font-family: 'Roboto', sans-serif; /* Update font family */
+    letter-spacing: 1px; /* Optional: Add spacing between letters */
+  }
+  
+  /* Outline Primary Button */
+  .btn-outline-primary {
+    color: #0c588b; /* Blue text */
+    border: 2px solid #0c588b; /* Blue border */
+    background-color: transparent; /* Transparent background */
+  }
+  
+  /* Hover Effect */
+  .btn-outline-primary:hover {
+    color: #ffffff; /* White text on hover */
+    background-color: #ab80d4; /* Blue background on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for hover */
+    transform: translateY(-2px); /* Lift effect */
+  }
+  
+  /* Active State */
+  .btn-outline-primary:active {
+    background-color: #2980b9; /* Darker blue for active state */
+    color: #ffffff; /* Keep white text */
+    transform: translateY(0); /* Remove lift on click */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Slightly smaller shadow */
+  }
+  
+  /* Responsive Design */
+  .btn-outline-primary {
+    width: auto; /* Adjusts width dynamically */
+    max-width: 200px; /* Optional: Limit width */
+  }
+  
+
+/* Heading Styles */
+.skills-section-heading {
+    font-size: 2.5rem; /* Equivalent to text-4xl */
+    font-weight: 800;  /* Extra bold for emphasis */
+    color: #1a202c;    /* Dark gray color */
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    line-height: 1.2;  /* Tight line height */
+  }
+  
+  /* Paragraph Styles */
+  .hero-section-description {
+    font-size: 1.125rem; /* Equivalent to text-lg */
+    color: #4a5568;      /* Medium gray color for readability */
+    line-height: 1.6;    /* Relaxed line spacing */
+    margin-top: 0.5rem;
+  }
+  
+  /* Highlighted Text */
+  .highlight {
+    font-weight: 600;  /* Semi-bold for emphasis */
+    color: #1a202c;    /* Darker text color */
+  }
+  
+
+  Heading Styles
+.hero-section-title {
+    font-size: 3rem; /* Large font size for the main title */
+    font-weight: 800; /* Bold font weight for prominence */
+    color: #1a202c; /* Dark gray for the main heading */
+     /* Space between the title and the paragraph */
+    text-align: center; /* Center align for better visual balance */
+    line-height: 1.2; /* Tight line spacing for heading */
+  }
+  
+  .hero-section-title-color {
+    color: #000000; /* Highlighted color for the "Hey, I'm Tiran" part */
+    font-weight: 900; /* Extra bold for emphasis */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+  }
+  
+  /* Paragraph Styles */
+  .hero-section-description {
+    font-size: 1.25rem; /* Slightly larger font for easy readability */
+    color: #4a5568; /* Medium gray color */
+    line-height: 1.6; /* Relaxed line spacing for readability */
+    text-align: left; /* Center align to match the heading */
+    margin-top: 0.5rem; /* Space above the paragraph */
+  } 
+  
+
+  

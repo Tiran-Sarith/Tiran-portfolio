@@ -2,25 +2,29 @@
     "skills": [
       {
         "id": "1",
-        "src": "./img/product-chain-1.png",
+        "src1": "./img/react-2.svg",
+        "src2": "./img/tailwindcss.svg",
         "title": "Front-End",
         "description": "Proficient in crafting responsive and visually appealing front-end designs using React, Tailwind CSS, and modern web development technologies."
       },
       {
         "id": "2",
-        "src": "./img/tag-1.png",
+        "src1": "./img/spring-3.svg",
+        "src2": "./img/nodejs-3.svg",
         "title": "Back-End",
         "description": "Skilled in building robust and efficient backend systems using Spring boot or Node.js, Express.js, MongoDB, and RESTful APIs for seamless functionality."
       },
       {
         "id": "3",
-        "src": "./img/feather-pen-2.png",
+        "src1": "./img/kubernets.svg",
+        "src2": "./img/docker.svg",
         "title": "DevOps",
         "description": "Experienced in implementing CI/CD pipelines, managing deployments, and ensuring system reliability using tools like Docker, Kubernetes, Terraform and Ansible"
       },
       {
         "id": "4",
-        "src": "./img/feather-pen-1.png",
+        "src1": "./img/aws-2.svg",
+        "src2": "./img/azure-2.svg",
         "title": "Cloud technologies",
         "description": "Proficient in leveraging cloud platforms like AWS and Azure for scalable deployments, storage solutions, and serverless computing."
       }

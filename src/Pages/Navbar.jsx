@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-scroll";
+import './style.css'
 
 function Navbar() {
   const [navActive, setNavActive] = useState(false);
@@ -47,7 +48,23 @@ function Navbar() {
       </a>
       <div className={`navbar--items ${navActive ? "active" : ""}`}>
         <ul>
-          <li>
+        <li>
+  <Link
+    onClick={closeMenu}
+    activeClass="navbar--active-content" // Class applied when the link is active
+    spy={true}
+    smooth={true}
+    offset={-70}
+    duration={500}
+    to="heroSection"
+    className="navbar--content"
+  >
+    Home
+  </Link>
+</li>
+
+
+<li>
             <Link
               onClick={closeMenu}
               activeClass="navbar--active-content"
@@ -55,12 +72,15 @@ function Navbar() {
               smooth={true}
               offset={-70}
               duration={500}
-              to="heroSection"
+              to="AboutMe"
               className="navbar--content"
             >
-              Home
+              About Me
             </Link>
           </li>
+
+
+
           <li>
             <Link
               onClick={closeMenu}
@@ -75,20 +95,7 @@ function Navbar() {
               Portfolio
             </Link>
           </li>
-          <li>
-            <Link
-              onClick={closeMenu}
-              activeClass="navbar--active-content"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-              to="AboutMe"
-              className="navbar--content"
-            >
-              About Me
-            </Link>
-          </li>
+
           <li>
             <Link
               onClick={closeMenu}
@@ -103,20 +110,22 @@ function Navbar() {
               Testimonials
             </Link>
           </li>
+
         </ul>
       </div>
       <Link
-        onClick={closeMenu}
-        activeClass="navbar--active-content"
-        spy={true}
-        smooth={true}
-        offset={-70}
-        duration={500}
-        to="Contact"
-        className="btn btn-outline-primary"
-      >
-        Contact Me
-      </Link>
+  onClick={closeMenu}
+  activeClass="navbar--active-content"
+  spy={true}
+  smooth={true}
+  offset={-70}
+  duration={500}
+  to="Contact"
+  className="btn btn-outline-primary"
+>
+  Contact Me
+</Link>
+
     </nav>
   );
 }

@@ -19,6 +19,10 @@ h6,
 p {
   margin: 0;
 }
+
+
+
+
 :root {
   --primary: #5e3bee;
   --heading-color: #282938;
@@ -194,6 +198,7 @@ h2 {
 /* Hero Section Style */
 .hero--section {
   display: grid;
+  
   grid-template-columns: repeat(2, 1fr);
   padding: 133.333px 85.333px 133.333px;
   align-items: center;
@@ -209,6 +214,7 @@ h2 {
 }
 .hero--section--content {
   display: flex;
+  
   flex-direction: column;
   align-items: flex-start;
   gap: 21.333px;
@@ -220,6 +226,7 @@ h2 {
   color: var(--heading-color);
   font-size: 74.667px;
   font-weight: 700;
+  
   line-height: 90px;
   align-self: stretch;
 }

@@ -14,19 +14,22 @@ export default function AboutMe() {
         <div className="hero--section--content--box about--section--box mt-8 md:mt-0 md:ml-8 w-full md:w-1/2">
           <div className="hero--section--content text-center md:text-left">
 
-            <h1 className="skills-section--heading text-3xl font-bold text-gray-800 mt-2">
-              Who am I?
-            </h1>
-            <p className="hero--section-description text-lg text-gray-600 mt-4">
-            Third year undergraduate studying Computer Engineering at the Department of Computer Engineering,
- University of Ruhuna, with a strong foundation in software development, DevOps practices, and cloud technologies. I am skilled in programming languages such as Python, Java, and JavaScript, with hands-on experience in
- modern tools like Docker, Kubernetes, and Terraform. 
-            </p>
-            <p className="hero--section-description text-lg text-gray-600 mt-4">
-            My goal is to further enhance my knowledge and skills in
- data Science, machine Learning, DevOps, and software engineering, and apply them to push the boundaries of
- computer engineering.
-            </p>
+          <h1 class="skills-section-heading">
+  Who am I?
+</h1>
+<p class="hero-section-description">
+  I am a third-year undergraduate studying Computer Engineering at the Department of Computer Engineering,
+  University of Ruhuna, with a strong foundation in software development, DevOps practices, and cloud technologies. 
+  I am skilled in programming languages such as <span class="highlight">Python</span>, 
+  <span class="highlight">Java</span>, and <span class="highlight">JavaScript</span>, with hands-on experience in modern tools like 
+  <span class="highlight">Docker</span>, <span class="highlight">Kubernetes</span>, and <span class="highlight">Terraform</span>.
+</p>
+<p class="hero-section-description">
+  My goal is to further enhance my knowledge and skills in 
+  <span class="highlight">Data Science</span>, <span class="highlight">Machine Learning</span>, <span class="highlight">DevOps</span>, 
+  and <span class="highlight">Software Engineering</span>, and apply them to push the boundaries of computer engineering.
+</p>
+
           </div>
         </div>
       </section>
