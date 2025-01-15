@@ -21,7 +21,8 @@ export default function HeroSection() {
         </button>
       </div>
       <div className="hero--section--img">
-        <img src="./img/hero_img.png" alt="Hero Section" />
+        <img src="./img/Tiran-cover.png"
+            alt="About Me" style={{height:'500px', width:'auto'}}/>
       </div>
     </section>
   );

@@ -32,7 +32,7 @@
     "portfolio": [
       {
         "id": "1",
-        "src": "./img/placeholder-image.png",
+        "src": "./img/Finance tracker.webp",
         "title": "Finance tracker",
         "description": " Finance management system that includes income and expense tracking through journal entries, and invoice generation for customers.",
         "link": "View In Github"
