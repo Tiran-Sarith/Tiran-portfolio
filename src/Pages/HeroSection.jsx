@@ -17,12 +17,13 @@ export default function HeroSection() {
 </p>
 
         </div>
-        <button className="btn btn-outline-primary"> <img src="./img/github-icon-1.svg" style={{ width: '20px', height: '20px', marginBottom:'-5px'}} /> <img src="./img/github-2.svg" style={{ width: '60px', height: '20px', marginBottom:'-5px'}} />
-        </button>
+        <a href="./img/Tiran_Wijerathne.pdf" target="_blank">
+  <button className="btn btn-outline-primary">Check Out My CV</button>
+</a>
       </div>
       <div className="hero--section--img">
         <img src="./img/Tiran-cover.png"
-            alt="About Me" style={{height:'500px', width:'auto'}}/>
+            alt="About Me" style={{height:'500px', width:'auto', marginRight:'-140px'}}/>
       </div>
     </section>
   );

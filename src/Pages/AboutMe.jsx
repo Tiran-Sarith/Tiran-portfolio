@@ -6,9 +6,10 @@ export default function AboutMe() {
       >
         <div className="about--section--img flex-shrink-0 w-full md:w-1/2 max-w-md">
           <img
-            src="./img/Tiran-cover.png"
+            src="./img/AboutMe.webp"
             alt="About Me"
             className="w-full rounded-lg shadow-lg"
+            style={{width:'550px'}}
           />
         </div>
         <div className="hero--section--content--box about--section--box mt-8 md:mt-0 md:ml-8 w-full md:w-1/2">
@@ -31,6 +32,53 @@ export default function AboutMe() {
 </p>
 
           </div>
+          <div className="footer--social--icon--about">
+          <ul>
+            <li>
+              <a
+                href="https://www.facebook.com/tiran.sarith"
+                className="navbar--content"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+            src="./img/FB.png"
+            alt="About Me"
+            style={{width:'40px'}}
+          />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/tiran_sarith/"
+                className="navbar--content"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+            src="./img/inster.png"
+            alt="About Me"
+            style={{width:'40px'}}
+          />
+              </a>
+            </li>
+            
+            <li>
+            <a
+                href="https://www.linkedin.com/in/tiran-wijerathne-b2258b227/"
+                className="navbar--content"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+            src="./img/linkedin.png"
+            alt="About Me"
+            style={{width:'40px'}}
+          />
+              </a>
+            </li>
+          </ul>
+        </div>
         </div>
       </section>
     );

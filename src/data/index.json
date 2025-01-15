@@ -32,24 +32,31 @@
     "portfolio": [
       {
         "id": "1",
-        "src": "./img/Finance tracker.webp",
+        "src": "./img/Finance.png",
         "title": "Finance tracker",
         "description": " Finance management system that includes income and expense tracking through journal entries, and invoice generation for customers.",
-        "link": "View In Github"
+        "link": "https://github.com/Tiran-Sarith/Finance-Tracker"
       },
       {
         "id": "2",
-        "src": "./img/placeholder-image-1.png",
+        "src": "./img/HR-tool.png",
         "title": "HR Management System",
         "description": "Job portal with user-side vacancy search and application, and HR-side employee management, task assignment, and vacancy control.",
         "link": "View In Github"
       },
       {
         "id": "3",
-        "src": "./img/placeholder-image-2.png",
-        "title": "Easy Rentn",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-        "link": "View In Github"
+        "src": "./img/breast-cancer.png",
+        "title": "Breast cancer prediction",
+        "description": "A machine learning-based breast cancer prediction model designed for early and accurate detection to support timely medical decisions.",
+        "link": "https://lnkd.in/dbeW9WU4"
+      },
+      {
+        "id": "3",
+        "src": "./img/E-commerce.png",
+        "title": "E-Commerce Website",
+        "description": "An e-commerce website under development using Spring Boot and React, with secure payments, and an admin panel for product and order management.",
+        "link": "https://lnkd.in/dbeW9WU4"
       }
     ],
     "testimonial": [
